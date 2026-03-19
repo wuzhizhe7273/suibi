@@ -1,0 +1,12 @@
+[workspace]
+members=["suibi-core"]
+[workspace.dependencies]
+futures={version="0.3.32"}
+anyhow = "1.0.102"
+thiserror = "2.0.18"
+[package]
+name = "suibi"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
